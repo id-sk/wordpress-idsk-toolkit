@@ -31,6 +31,7 @@ Contact contributors via email: idsk@mirri.gov.sk
 == Changelog ==
 
 = 1.7.3 =
+* fixed [CVE-2024-50517](https://www.cve.org/CVERecord?id=CVE-2024-50517) by proper sanitization
 * fixed [CVE-2024-9853](https://www.cve.org/CVERecord?id=CVE-2024-9853) by removal of SVG support from codebase
   * reported by [Francesco Carlucci](https://francescocarlucci.com)
   * use other available [SVG plugins](https://wordpress.org/plugins/search/svg/) to add SVG support back
